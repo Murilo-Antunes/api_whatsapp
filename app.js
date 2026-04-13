@@ -124,7 +124,7 @@ app.get('/v1/whatsapp/help', (req, res) => {
         ]
     }
 
-    response.json(docApi)
+    res.json(docApi)
 })
 
 app.get('/', (req, res) => {
